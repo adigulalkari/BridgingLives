@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+.Login{
+    margin: 0;
+    background-image: url("bgr11.png");
+    background-repeat: 0;
+    background-size: cover;
+}
+
+#logo{
+    margin-left: 5rem;
+    margin-right: 20rem;
+    color: rgb(3, 3, 3);
+    font-size: 2rem;
+
+} 
+#logoz{
+    color: rgb(75, 179, 6);
+}
+
+a{
+    color: rgb(5, 5, 5);
+    text-decoration: none;
+    padding: 1rem;
+   
+} 
+a:hover{
+    color: rgb(250, 186, 49);
+} 
+
+.email,.name,.password,.signup{
+    margin-left: 5rem;
+    margin-top: 2.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+.inpt,.signup{
+    width: 20rem;
+    height: 3rem;
+}
+.signup,.btn{
+    background-color: rgb(75, 179, 6);
+    border:none;
+    color: white;
+    border-radius: 30px;
+    margin-bottom: 2.5rem;
+}
+.signup:hover,.btn:hover{
+    background-color: black;
+}
+.btn{
+width: 8rem;
+height: 2.5rem;
+}
