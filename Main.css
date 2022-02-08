@@ -1,9 +1,11 @@
 body{
     margin: 0;
-}.container{
     background-image: url("bgr4.png");
     background-repeat: no-repeat;
     background-size: cover;
+}.container{
+   
+    
     text-align: center;
     
     font-family:  sans-serif;}
@@ -32,7 +34,7 @@ width:8rem;
 border: none;
 margin-top: 80px;
 margin-right: 2%;
-margin-bottom: 5%;
+margin-bottom: 10%;
 color: white;}
     
 .Volunteer{
@@ -72,6 +74,7 @@ background-color:black
     color: white;
     border-radius: 30px;
     margin-bottom: 2.5rem;
+    
 }
 .btn:hover{
     background-color: black;
@@ -80,3 +83,26 @@ background-color:black
 width: 8rem;
 height: 2.5rem;
 }
+nav select {
+    display: none;
+  }
+@media(max-width:988px){
+    
+    nav select { display: inline-block;
+        
+        background-color: rgb(75, 179, 6);
+        color: white;
+        padding: 1.5%;
+        
+     }
+     nav .disp{
+         display: none;
+     }
+   
+    }
+
+    @media(max-width:1350px){
+        .Orphanage{
+            margin-bottom: 30rem;
+        }
+    }

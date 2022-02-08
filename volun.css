@@ -51,7 +51,7 @@ a:hover{
     font-size:1rem;
     font-weight: 700;
     color: rgb(71, 71, 71);
-    padding-bottom: 25rem ;
+    
 }
 .btn{
     background-color: rgb(75, 179, 6);
@@ -60,10 +60,38 @@ a:hover{
     border-radius: 30px;
     margin-bottom: 2.5rem;
 }
-.btn:hover{
+.btn:hover,.Login_b:hover{
     background-color: black;
 }
 .btn{
 width: 8rem;
 height: 2.5rem;
 }
+nav select {
+    display: none;
+  }
+@media(max-width:1177px){
+    
+    nav select { display: inline-block;
+        
+        background-color: rgb(75, 179, 6);
+        color: white;
+        padding: 1.5%;
+        
+     }
+     nav .disp{
+         display: none;
+     }
+   
+    }
+    .Login_b{
+        background-color: rgb(75, 179, 6);
+    border:none;
+    color: white;
+    border-radius: 30px;
+    margin-bottom: 25rem;
+    width:8rem;
+    height: 3rem;
+    }
+
+  
