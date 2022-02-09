@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="{{ url_for('static',filename='Main.css')}}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@100&family=Satisfy&display=swap" rel="stylesheet">
+
+    <title>Suggested Events</title>
+</head>
+
+<body>
+    <script src="suggestion.js"></script>
+    <nav>
+        <span id="logo"><a href="index.html">Bridging<span id="logoz">Lives</a></span></span>
+
+
+        <a href="#">About Us</a>
+        <a href="#">Events</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Infographics</a>
+        <button class="btn"><a href="/logout">Logout</a></button>
+
+        <div class="background"><img src="MacBook Pro 16_ - 1.png" alt="background"> </div>
+
+        <div class="main-body">
+            <h1>
+                Event Suggestion Page
+            </h1><br>
+            <div class="para">
+                <p>We at Bridging lives have created an algorithm wherein it makes it easier for the volunteers to organize <br> a particular event based on the age group the want to conduct it for and the budget they can spare for the same. <br> <br> It
+                    is still in BETA phase. <br><br> </p>
+            </div>
+            <h3>Please select any one of the following options:</h3><br>
+            <div class="age">
+                <h1>Age Group</h1><br>
+                <label for="small">
+                    <input type="radio" name="age" id="small" onclick="ShowHiddenDiv()" />
+                    2-7 Ages
+                </label>
+                <label for="medium">
+                    <input type="radio" name="age" id="medium" onclick="ShowHiddenDiv()" />
+                    8-11 Ages
+                </label>
+                <label for="big">
+                    <input type="radio" name="age" id="big" onclick="ShowHiddenDiv()" />
+                    12-15 Ages
+                </label><br><br>
+            </div>
+            <br>
+            <div class="budget" id="budget" style="display: none;">
+                <h1>Budget</h1><br>
+                <label for="cat1">
+                    <input type="radio" name="price" id="cat1" onclick="ShowHiddenDiv()" />
+                    upto 5000
+                </label>
+                <label for="cat1">
+                    <input type="radio" name="price" id="cat2" onclick="ShowHiddenDiv()" />
+                    5000-10000
+                </label>
+                <label for="cat3">
+                    <input type="radio" name="price" id="cat3" onclick="ShowHiddenDiv()" />
+                    10000-15000
+                </label>
+            </div>
+            <br>
+
+            <div class="messages">
+                <div id="msg1" style="display: none">
+                    <br>
+                    <h3>Following are the events that you can consider:</h3>
+                    <br> 1.Coloring Activities<br>2.Puppet Show<br> 3.Story Telling<br>
+                </div>
+                <div id="msg2" style="display: none">
+                    <br>
+                    <h3>Following are the events that you can consider:</h3>
+                    <br>1.Drawing Workshops <br>2.Puppet Show<br> 3.Board Games<br>
+                </div>
+                <div id="msg3" style="display: none">
+                    <br>
+                    <h3>Following are the events that you can consider:</h3>
+                    <br> 1.Tree Plantation <br>2.Drawing and Coloring Workshops <br> 3.Outdoor Games <br>
+                </div>
+                <div id="msg4" style="display: none">
+                    <br>
+                    <h3>Following are the events that you can consider:</h3>
+                    <br> 1.Essay Competions <br>2.Dance Performances <br> 3.Team Building Activities<br>
+                </div>
+                <div id="msg5" style="display: none">
+                    <br>
+                    <h3>Following are the events that you can consider:</h3>
+                    <br> 1.Sports Activities <br>2.Clay-Modelling Workshop <br> 3.Best out of Waste <br>
+                </div>
+                <div id="msg6" style="display: none">
+                    <br>
+                    <h3>Following are the events that you can consider:</h3>
+                    <br> 1.Clay Modeling Workshop <br>2.Tree Plantation Drive <br> 3.Group Games <br>
+                </div>
+                <div id="msg7" style="display: none">
+                    <br>
+                    <h3>Following are the events that you can consider:</h3>
+                    <br> 1.Best out of Waste <br>2.Fitness Training <br> 3.Simple Science Experiments <br>
+                </div>
+                <div id="msg8" style="display: none">
+                    <br>
+                    <h3>Following are the events that you can consider:</h3>
+                    <br> 1.STEM Related Workshops <br>2.Motivational Lectures <br> 3.Life Skills Workshops <br>
+                </div>
+                <div id="msg9" style="display: none">
+                    <br>
+                    <h3>Following are the events that you can consider:</h3>
+                    <br> 1. <br>2.green <br> 3.yellow <br>
+                </div>
+            </div>
+        </div>
+
+
+</body>
+
+</html>
