@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="{{ url_for('static',filename='aboutus.css')}}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@100&family=Satisfy&display=swap" rel="stylesheet">
+    <title>BridingLives</title>
+</head>
+<body>
+    
+    <div class="container">
+        
+        <nav >
+            <span id="logo"><a href="{{ url_for('home_page')}}">Bridging<span id="logoz">Lives</a></span></span>
+        
+            
+             
+            <a href="{{ url_for('aboutus_page')}}">About Us</a> 
+            <a href="#">Events</a> 
+            <a href="{{ url_for('contactus_page')}}">Contact Us</a> 
+            <a href="#">Infographics</a>
+            <button class="btn"><a href="{{ url_for('vlogin_page')}}">Login</a></button>
+            
+        </nav>
+          
+   <h1 align="center">
+       About Us!
+   </h1>
+   <br>
+   <br>
+   <div align="center">
+    <img src="{{ url_for('static',filename='adi.jfif')}}" alt="Adi Gulalkari(Team Leader)" width="250" height="300">
+    <h4>Adi Gulalkari(Team Leader) </h4>
+    <p> Adi is pursuing Computer Science Engineering at the <br> Vellore Institue of Technology and currently resides in Thane
+    </div>
+    <br>
+    <div align="center">
+        <img src="{{ url_for('static',filename='ishita.jfif')}}" alt="Ishita Jinturkar" width="250" height="300">
+        <h4>Ishita Jinturkar</h4>
+        <p> Ishita is pursuing Computer Science Engineering at the <br> Vellore Institue of Technology and currently resides in Pune.
+    </div>
+    <br>
+    <div align="center">
+        <img src="{{ url_for('static',filename='vishvam.jpg')}}" alt="Vishvam" width="250" height="300">
+        <h4>Vishvam Madhak</h4>
+        <p>Vishvam is pursuing Computer Science Engineering at the <br> Vellore Institue of Technology and currently resides in Vadodara.
+    </div>
+    <br>
+    <div align="center">
+        <img src="{{ url_for('static',filename='varunproper.jpg')}}" alt="Varun" width="250" height="300">
+        <h4>Varun Sudhir</h4>
+        <p>Varun is pursuing Computer Science Engineering at the <br> Vellore Institue of Technology and currently resides in Bengaluru.
+    </div>
+   
+   
+</html>

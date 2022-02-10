@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="{{ url_for('static',filename='Main.css')}}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@100&family=Satisfy&display=swap" rel="stylesheet">
+    <title>BridingLives</title>
+</head>
+<body>
+    
+    <div class="container">
+        
+        <nav >
+            <span id="logo"><a href="{{ url_for('home_page')}}">Bridging<span id="logoz">Lives</a></span></span>
+        
+            
+             
+            <a href="{{ url_for('aboutus_page')}}" class="disp">About Us</a> 
+            <a href="{{ url_for('events_page')}}"class="disp">Events</a> 
+            <a href="{{ url_for('contactus_page')}}"class="disp">Contact Us</a> 
+            <a href="#"class="disp">Infographics</a>
+            <button class="btn disp"><a href="{{ url_for('vlogin_page')}}">Login</a></button>
+            <select> 
+                <option value="" selected="selected">Select</option> 
+                
+                <option value="/">About Us</option> 
+                <option value="/">Events</option> 
+                <option value="/">Contact Us</option> 
+                <option value="/">Infographics</option> 
+                <option value="/">Login</option> 
+              </select> 
+            
+            
+            
+        </nav>   
+    <div class="text">      
+    <span class="uppertext">
+    LEND A HAND
+    </span>
+    <p class="lowertext">
+        TO MAKE THE WORLD A BETTER PLACE
+    </p>
+    <p class="para">We,at BridingLives aim to provide a platform for orphanages and volunteers,through which they can connect with each other,directly.Connecting to us is your chance of making a difference.Register yourselves or your organisation,using the given buttons.</p>
+    <div class="user">
+        <button class="Orphanage" >Orphanage</button>
+        <button class="Volunteer"><a href="volun.html">Volunteer</a></button>
+    </div>    
+    </div>
+</div>
+
+</body>
+</html

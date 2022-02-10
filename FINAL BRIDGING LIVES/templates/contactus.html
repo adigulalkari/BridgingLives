@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="{{ url_for('static',filename='contactus.css')}}">
+    <title>Contact Us</title>
+</head> 
+<body>
+    <nav >
+        <span id="logo"><a href="{{ url_for('home_page')}}"">Bridging<span id="logoz">Lives</a></span></span>
+ 
+        <a href="{{ url_for('aboutus_page')}}">About Us</a> 
+        <a href="#">Events</a> 
+        <a href="{{ url_for('contactus_page')}}">Contact Us</a> 
+        <a href="#">Infographics</a>
+        <button class="btn"><a href="{{ url_for('login_page')}}">Login</a></button>   
+    </nav>
+    <h1 align="center">Contact us!</h1> 
+    <div class='body' align="center">
+        <ul>
+            <li align="center">Bridging Lives !</li>
+            <br>
+            <li align="center">Contact Number : +91 7445598329</li>
+            <br>
+            <li align="center">Email : bridginglives@gmail.com</li>
+        </ul>
+    </div>
+    <div class="Login">
+  
+  
+   <form>
+       <div class="name">
+    <label >Name<br></label>
+    <input class="inpt" type="name" >
+</div>
+<div class="email">
+    <label >Email<br></label>
+        <input class="inpt"type="email" >
+    </div>
+
+    </div>
+    <div class="password">
+        <label>Who are you ?</label>
+        <br>
+        <input type="radio" value="Volunteerr">
+        <label for="html">Volunteer</label>
+        <input type="radio" value="Orphanage">
+        <label for="css">Orphanage</label><br>
+    </div>
+    <div class="password">
+        <label >Comment<br></label>
+            <input class="inpt"type="text" >
+        </div>
+        <button class="signup"><a href="#">Submit</a></button>
+   </form>
+
+   </div>
+  
+</div>

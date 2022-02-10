@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="{{ url_for('static',filename='login.css')}}">
+    <title>Login</title>
+</head> 
+<body>
+    <nav >
+        <span id="logo"><a href="{{ url_for('home_page')}}"">Bridging<span id="logoz">Lives</a></span></span>
+ 
+        <a href="{{ url_for('aboutus_page')}}">About Us</a> 
+        <a href="#">Events</a> 
+        <a href="{{ url_for('contactus_page')}}">Contact Us</a> 
+        <a href="#">Infographics</a>
+        <button class="btn"><a href="{{ url_for('login_page')}}">Login</a></button>   
+    </nav>     
+    <div class="Login">
+  
+  
+   <form>
+       <div class="email">
+    <label >Email<br></label>
+    <input class="inpt" type="email" >
+</div>
+<div class="name">
+    <label >Name<br></label>
+        <input class="inpt"type="name" >
+    </div>
+    <div class="password">
+        <label >Password<br></label>
+            <input class="inpt"type="password" >
+        </div>
+        <button class="signup"><a href="#">Sign Up</a></button>
+   </form>
+  
+</div>
+
+
+</body>
+</html>
