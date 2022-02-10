@@ -1,0 +1,99 @@
+body{ background-image: url("Contact\ us\ \(1\).png");
+    font-family: sans-serif;
+}a{
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    padding: 1rem;
+   
+} 
+a:hover{
+    color: rgb(75, 179, 6);
+} 
+#logo{
+    
+    margin-right: 20%;
+    color: rgb(252, 250, 250);
+    font-size: 2rem;
+
+} 
+#logoz{
+    color:rgb(250, 186, 49);
+}
+
+nav select {
+    display: none;
+  }
+
+  .orp{
+      text-align: center;
+      padding: 1rem;
+      background-color: rgb(250, 186, 49);
+      
+      
+  }
+@media(max-width:1177px){
+    
+    nav select { display: inline-block;
+        
+        background-color:rgb(250, 186, 49);
+        color: white;
+        padding: 1.5%;
+        
+     }
+     nav .disp{
+         display: none;
+     }
+   
+    }
+
+    .btn{
+        background-color:rgb(250, 186, 49);
+        border:none;
+        color: white;
+        border-radius: 30px;
+        margin-bottom: 2.5rem;
+        
+    }
+    .btn:hover{
+        background-color: black;
+    }
+    .btn{
+    width: 8rem;
+    height: 2.5rem;
+    }
+    .info{
+        padding:3rem;
+        padding-top: 1rem;
+        display: flex;
+        flex-flow: row wrap;
+        background-color:rgb(233, 233, 232);
+        
+    }
+    .details{
+        text-align: left;
+        padding: 2rem;
+    }
+    .Requirements{
+    color: rgb(250, 186, 49);
+    padding-left: 8rem;
+    
+    }
+    .req{
+        padding: 2.5rem;
+        background-color: white;
+        border-radius: 3rem;
+        
+    }
+    .req1{
+        width:15rem;
+        padding: 2.5rem;
+        background-color: white;
+        border-radius: 3rem;
+        
+    }
+    .req2{
+        width:11rem;
+        padding: 2.5rem;
+        background-color: white;
+        border-radius: 3rem;
+    }

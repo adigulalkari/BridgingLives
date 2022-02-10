@@ -1,0 +1,97 @@
+body{
+    font-family:  sans-serif;
+}
+.volunteersection{
+    background-image:url("bgr2.png");
+    background-size: cover;
+}
+nav{
+    text-align: end;
+    
+} 
+#logo{
+    
+    margin-right: 23rem;
+    color: rgb(7, 7, 7);
+    font-size: 2rem;
+
+} 
+#logoz{
+    color: rgb(75, 179, 6);
+}
+#home{
+    color: rgb(75, 179, 6);
+}
+a{
+    color: rgb(10, 0, 0);
+    text-decoration: none;
+    padding: 1rem;
+   
+} 
+a:hover{
+    color: rgb(250, 186, 49);
+} 
+.container1{
+    padding-left:10rem;
+    padding-top: 7rem;
+}
+.hi{
+    font-size: 3rem;
+}
+.hand{
+    color: rgb(75, 179, 6);
+}
+.quote{
+    padding-top: 3rem;
+    font-weight: 700;
+    color: rgb(71, 71, 71);
+}
+.author{
+    margin-left: 25%;
+    font-size:1rem;
+    font-weight: 700;
+    color: rgb(71, 71, 71);
+    
+}
+.btn{
+    background-color: rgb(75, 179, 6);
+    border:none;
+    color: white;
+    border-radius: 30px;
+    margin-bottom: 2.5rem;
+}
+.btn:hover,.Login_b:hover{
+    background-color: black;
+}
+.btn{
+width: 8rem;
+height: 2.5rem;
+}
+nav select {
+    display: none;
+  }
+@media(max-width:1177px){
+    
+    nav select { display: inline-block;
+        
+        background-color: rgb(75, 179, 6);
+        color: white;
+        padding: 1.5%;
+        
+     }
+     nav .disp{
+         display: none;
+     }
+   
+    }
+    .Login_b{
+        background-color: rgb(75, 179, 6);
+    border:none;
+    color: white;
+    border-radius: 30px;
+    margin-bottom: 25rem;
+    width:8rem;
+    height: 3rem;
+    }
+
+  
